@@ -1,0 +1,16 @@
+
+server:
+  port: 8080
+
+spring:
+  application:
+    name: mmall-front
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+ribbon:
+  ReadTimeout: 50000 #∫¡√Î
+  ConnectTimeout: 30000 #∫¡√Î
